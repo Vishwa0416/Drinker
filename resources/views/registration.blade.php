@@ -4,7 +4,7 @@
 
 <div class="container">
     <h1>Welcome to Drinker!</h1>
-    <p>Please Log In to continue</p>
+    <p>Please Register to continue</p>
     <form class="ms-auto me-auto mt-3" style="width: 500px">
         <div class="mb-3">
             <label class="form-label">Full Name</label>
