@@ -15,4 +15,9 @@ class Authmanager extends Controller
     {
         return view('registration');
     }
+
+    function loginPost(Request $request)
+    {
+        return view('login');
+    }
 }

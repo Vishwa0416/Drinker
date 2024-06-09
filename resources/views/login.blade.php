@@ -5,7 +5,7 @@
 <div class="container">
     <h1>Welcome to Drinker!</h1>
     <p>Please Log In to continue</p>
-    <form class="ms-auto me-auto mt-3" style="width: 500px">
+    <form action="{{route('login.post')}}" method="post" class="ms-auto me-auto mt-3" style="width: 500px">
         <div class="mb-3">
             <label class="form-label">E-mail</label>
             <input type="email" class="form-control" name="email">
