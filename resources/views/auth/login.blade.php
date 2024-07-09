@@ -6,6 +6,7 @@
     <h1>Welcome to Drinker!</h1>
     <p>Please Log In to continue</p>
     <form action="{{route('login.post')}}" method="post" class="ms-auto me-auto mt-3" style="width: 500px">
+        @csrf
         <div class="mb-3">
             <label class="form-label">E-mail</label>
             <input type="email" class="form-control" name="email">
@@ -16,6 +17,9 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <div class="text-center mt-3">
+        <a href="{{route('registration')}}" class="btn btn-secondary">Sign Up</a>
+    </div>
 </div>
 
 @endsection
