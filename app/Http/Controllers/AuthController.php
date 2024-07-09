@@ -30,5 +30,18 @@ class AuthController extends Controller
         return view('auth.registration');
     }
 
-    // Add more methods as needed
+    public function register(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:8|confirmed',
+            'age_check' => 'required'  // Validate the age check
+        ]);
+
+        // Registration logic (e.g., creating a new user)
+        // User::create([...]);
+
+        return redirect()->route('home')->with('success', 'Registration successful.');
+    }
 }
