@@ -15,6 +15,9 @@
             <label class="form-label">Password</label>
             <input type="password" class="form-control" name="password" required>
         </div>
+        <div class="text-center mt-3">
+            <a href="{{ route('password.request') }}" class="text-muted">Forgot Password?</a>
+        </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="ageCheck" required>
             <label class="form-check-label" for="ageCheck">I confirm that I am 18 years old or older</label>
@@ -24,9 +27,7 @@
     <div class="text-center mt-3">
         <a href="{{ route('registration') }}" class="btn btn-secondary">Sign Up</a>
     </div>
-    <div class="text-center mt-3">
-        <a href="{{ route('password.request') }}" class="text-muted">Forgot Password?</a>
-    </div>
+
 </div>
 
 @endsection

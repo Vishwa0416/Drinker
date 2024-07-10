@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,5 @@ Route::post('/registration', [AuthController::class, 'register'])->name('registr
 
 Route::get('/password/reset', [AuthController::class, 'showResetForm'])->name('password.request');
 Route::post('/password/email', [AuthController::class, 'sendResetLinkEmail'])->name('password.email');
+
+Route::get('/homepage', [PageController::class, 'showHomePage'])->name('homepage');
