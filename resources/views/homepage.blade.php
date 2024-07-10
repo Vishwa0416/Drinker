@@ -3,8 +3,16 @@
 @section('content')
 
 <div class="container">
-    <h1>New Page</h1>
-    <p>This is the content of the new page.</p>
+    <h1>Drinker!</h1>
+    <p>Make your own drinks as you wish!
+    </p>
+    <div>
+        <h3 class="text-center">Wines</h3>
+        </br>
+        <div>
+            <img src="{{asset('images/wine1.jpeg')}}" alt="Wines" class="img-fluid" width="125px" height="125px">
+        </div>
+    </div>
 </div>
 
 @endsection
