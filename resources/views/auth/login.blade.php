@@ -9,11 +9,11 @@
         @csrf
         <div class="mb-3">
             <label class="form-label">E-mail</label>
-            <input type="email" class="form-control" name="email">
+            <input type="email" class="form-control" name="email" required>
         </div>
         <div class="mb-3">
             <label class="form-label">Password</label>
-            <input type="password" class="form-control" name="password">
+            <input type="password" class="form-control" name="password" required>
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="ageCheck" required>
@@ -22,7 +22,10 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <div class="text-center mt-3">
-        <a href="{{route('registration')}}" class="btn btn-secondary">Sign Up</a>
+        <a href="{{ route('registration') }}" class="btn btn-secondary">Sign Up</a>
+    </div>
+    <div class="text-center mt-3">
+        <a href="{{ route('password.request') }}" class="text-muted">Forgot Password?</a>
     </div>
 </div>
 

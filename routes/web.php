@@ -23,3 +23,6 @@ Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');
 
 Route::get('/registration', [AuthController::class, 'showRegistrationForm'])->name('registration');
 Route::post('/registration', [AuthController::class, 'register'])->name('registration.post');
+
+Route::get('/password/reset', [AuthController::class, 'showResetForm'])->name('password.request');
+Route::post('/password/email', [AuthController::class, 'sendResetLinkEmail'])->name('password.email');
