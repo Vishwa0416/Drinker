@@ -150,7 +150,7 @@
         <div class="row">
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/vodka1.jpg') }}" class="card-img-top" alt="Wines"
+                    <img src="{{ asset('images/whiskey.jpeg') }}" class="card-img-top" alt="Wines"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
                         <h5 class="card-title">Absolute Vodka Citron 750ML - £10.50</h5>
