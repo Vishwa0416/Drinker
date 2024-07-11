@@ -76,14 +76,20 @@
         <div class="row">
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine1.jpeg') }}" class="card-img-top" alt="Wines"
+                    <img src="{{ asset('images/vodka1.jpg') }}" class="card-img-top" alt="Wines"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Banrock Station Shiraz 75Cl - £7.50</h5>
-                        <p class="card-text">The Banrock Station Shiraz is a rich and full-bodied red wine with strong
-                            flavors of blackberry, coffee, and oak, along with a touch of clove and cinnamon. It has a
-                            full-bodied taste, showcasing plum and blackberry notes, complemented by hints of clove and
-                            aniseed spices. The alcohol by volume (ABV) of this wine is 13%.</p>
+                        <h5 class="card-title">Absolute Vodka Citron 750ML - £10.50</h5>
+                        <p class="card-text">Enjoy the fresh taste of Absolut Vodka Citron. It’s a special vodka with
+                            lemon flavor. It’s made with a lot of care and skill. It’s a good choice for people who want
+                            a great vodka experience.
+
+                            Absolut Vodka Citron has won many awards for its great quality and taste. People who know a
+                            lot about drinks like it a lot. This shows that it’s one of the best vodka brands.
+
+                            You can use Absolut Vodka Citron to make fancy cocktails. You can drink it straight, mix it
+                            into a classic martini, or use it to make citrusy drinks. It’s smooth and tasty. You can
+                            keep it in your bar or at home for any time you want a good drink.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
