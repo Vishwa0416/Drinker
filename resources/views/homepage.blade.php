@@ -4,7 +4,8 @@
 
 <div class="container">
     <h1>Drinker!</h1>
-    <p>Make your own drinks as you wish!</p>
+    <p>Make your own drink as you wish!</p>
+    <h3>Featured Products:</h3>
     <div>
         <h3 class="text-center">Wines</h3>
         <br>
