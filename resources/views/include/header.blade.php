@@ -14,12 +14,14 @@
                     <a class="nav-link" href="#">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">About</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
+        </div>
+        <div>
+            <a href="{{ route('login') }}" type="submit" class="btn btn-primary btn-lg text-uppercase ">Log
+                In</a>
+
         </div>
     </div>
 </nav>
