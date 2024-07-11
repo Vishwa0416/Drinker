@@ -111,13 +111,16 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine3.jpeg') }}" class="card-img-top" alt="Wines"
+                    <img src="{{ asset('images/vodka3.jpg') }}" class="card-img-top" alt="Wines"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Chateau Clarke 750ML - £9.50</h5>
-                        <p class="card-text">This wine has a strong smell of ripe black currants mixed with cedar,
-                            cloves, and violets. It tastes round and full, like baked plums, and it has a good balance
-                            of chewy tannins and not too much acidity.</p>
+                        <h5 class="card-title">Finlandia Vodka 750ML - £7.50</h5>
+                        <p class="card-text">Finlandia Vodka is a very good vodka made in Finland. They use natural
+                            things like special Finnish barley and clean glacier water to make it taste dry, light, and
+                            smooth. People have liked the taste of Finlandia Vodka for more than 50 years. You can use
+                            it to make many tasty drinks like a Finlandia Bloody Mary or an Espresso Martini, or even
+                            classic ones like a Vodka Martini or a Cosmo. Finlandia Vodka also helps a charity called
+                            Living Lands and Waters, which works to protect rivers in the United States.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
@@ -125,13 +128,14 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine4.png') }}" class="card-img-top" alt="Wines"
+                    <img src="{{ asset('images/vodka4.jpg') }}" class="card-img-top" alt="Wines"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Chateau Clarke 750ML - £9.50</h5>
-                        <p class="card-text">This wine has a strong smell of ripe black currants mixed with cedar,
-                            cloves, and violets. It tastes round and full, like baked plums, and it has a good balance
-                            of chewy tannins and not too much acidity.</p>
+                        <h5 class="card-title">Crystal Head Vodka 50ML - £4.99</h5>
+                        <p class="card-text">Crystal Head uses only the highest-quality ingredients to create unique
+                            expressions of ultra-premium vodka that are completely additive-free. Original, crafted from
+                            locally sourced Canadian corn, Aurora, crafted from English wheat, and Onyx, crafted with
+                            Blue Weber agave.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
