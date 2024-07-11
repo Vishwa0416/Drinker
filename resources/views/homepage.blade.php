@@ -144,6 +144,79 @@
             </div>
         </div>
     </div>
+    <div>
+        <h3 class="text-center">Whiskey</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/vodka1.jpg') }}" class="card-img-top" alt="Wines"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Absolute Vodka Citron 750ML - £10.50</h5>
+                        <p class="card-text">Enjoy the fresh taste of Absolut Vodka Citron. It’s a special vodka with
+                            lemon flavor. It’s made with a lot of care and skill. It’s a good choice for people who want
+                            a great vodka experience.
+
+                            Absolut Vodka Citron has won many awards for its great quality and taste. People who know a
+                            lot about drinks like it a lot. This shows that it’s one of the best vodka brands.
+
+                            You can use Absolut Vodka Citron to make fancy cocktails. You can drink it straight, mix it
+                            into a classic martini, or use it to make citrusy drinks. It’s smooth and tasty. You can
+                            keep it in your bar or at home for any time you want a good drink.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/vodka2.jpg') }}" class="card-img-top" alt="Wines"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Noblewood Beluga Noble Vodka 700ML - £14.99</h5>
+                        <p class="card-text">Beluga is a very famous and high-quality vodka from Russia. It has a fancy
+                            history and is made with great care. The place where they make it, called the Mariinsk
+                            Distillery, was started in 1900 and is in a clean and natural part of Siberia.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/vodka3.jpg') }}" class="card-img-top" alt="Wines"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Finlandia Vodka 750ML - £7.50</h5>
+                        <p class="card-text">Finlandia Vodka is a very good vodka made in Finland. They use natural
+                            things like special Finnish barley and clean glacier water to make it taste dry, light, and
+                            smooth. People have liked the taste of Finlandia Vodka for more than 50 years. You can use
+                            it to make many tasty drinks like a Finlandia Bloody Mary or an Espresso Martini, or even
+                            classic ones like a Vodka Martini or a Cosmo. Finlandia Vodka also helps a charity called
+                            Living Lands and Waters, which works to protect rivers in the United States.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/vodka4.jpg') }}" class="card-img-top" alt="Wines"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Crystal Head Vodka 50ML - £4.99</h5>
+                        <p class="card-text">Crystal Head uses only the highest-quality ingredients to create unique
+                            expressions of ultra-premium vodka that are completely additive-free. Original, crafted from
+                            locally sourced Canadian corn, Aurora, crafted from English wheat, and Onyx, crafted with
+                            Blue Weber agave.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection
