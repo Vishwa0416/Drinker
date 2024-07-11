@@ -97,13 +97,13 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine2.jpeg') }}" class="card-img-top" alt="Wines"
+                    <img src="{{ asset('images/vodka2.jpg') }}" class="card-img-top" alt="Wines"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Bouchard Grand Conseiller Chardonnay 75Cl - £9.50</h5>
-                        <p class="card-text">This wine smells light and fruity with hints of minerals, white flowers,
-                            and peaches. It’s dry with a citrusy taste. It’s made in steel tanks without oak aging.
-                            Great with seafood, chicken, and salads.</p>
+                        <h5 class="card-title">Noblewood Beluga Noble Vodka 700ML - £14.99</h5>
+                        <p class="card-text">Beluga is a very famous and high-quality vodka from Russia. It has a fancy
+                            history and is made with great care. The place where they make it, called the Mariinsk
+                            Distillery, was started in 1900 and is in a clean and natural part of Siberia.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
