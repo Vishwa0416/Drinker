@@ -216,7 +216,7 @@
         <div class="row">
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/taq11.jpeg') }}" class="card-img-top" alt="Taquila 1"
+                    <img src="{{ asset('images/taq1.jpg') }}" class="card-img-top" alt="Taquila 1"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
                         <h5 class="card-title">Artisan Mezcal Monte Luna 750ML - £17.50</h5>
@@ -231,13 +231,22 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine2.jpeg') }}" class="card-img-top" alt="Bouchard Grand Wine"
+                    <img src="{{ asset('images/taq2.jpg') }}" class="card-img-top" alt="Taq 2"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Bouchard Grand Conseiller Chardonnay 75Cl - £9.50</h5>
-                        <p class="card-text">This wine smells light and fruity with hints of minerals, white flowers,
-                            and peaches. It’s dry with a citrusy taste. It’s made in steel tanks without oak aging.
-                            Great with seafood, chicken, and salads.</p>
+                        <h5 class="card-title">Taquila Rose Strawberry Cream Liqueur 700ML - £18.50</h5>
+                        <p class="card-text">The original strawberry cream liqueur was the first drink to mix tequila
+                            with strawberry cream instead of Irish whiskey. It was a unique and delicious idea. Even
+                            after more than 20 years, Tequila Rose is still the world’s most popular strawberry cream
+                            liqueur, and it inspired other similar cream liqueurs.
+
+                            When the bottle turns pink, it’s ready to drink, so you don’t need to guess when it’s
+                            chilled perfectly.
+
+                            Tequila Rose is a smooth mix of creamy strawberry and tequila, which can be enjoyed whether
+                            you like sweet or exciting drinks. It has an elegant design with black glass to keep it
+                            fresh and silver roses and pink strawberries for a beautiful look. It’s a timeless and
+                            attractive classic.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
@@ -245,13 +254,16 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine3.jpeg') }}" class="card-img-top" alt="Chateau Clarke Wine"
+                    <img src="{{ asset('images/wine3.jpeg') }}" class="card-img-top" alt="Taq 3"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
                         <h5 class="card-title">Chateau Clarke 750ML - £9.50</h5>
-                        <p class="card-text">This wine has a strong smell of ripe black currants mixed with cedar,
-                            cloves, and violets. It tastes round and full, like baked plums, and it has a good balance
-                            of chewy tannins and not too much acidity.</p>
+                        <p class="card-text">Casco Viejo is a famous brand of tequila that is known all around the
+                            world. It’s the third best-selling tequila in Mexico, which is where tequila comes from, and
+                            it’s the most popular tequila in Mexico City.
+
+                            This tequila is special because it’s really good for mixing with other drinks, and it has
+                            always been of high quality, passed down through many generations of tequila makers.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
