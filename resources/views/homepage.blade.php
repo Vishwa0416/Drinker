@@ -254,10 +254,10 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine3.jpeg') }}" class="card-img-top" alt="Taq 3"
+                    <img src="{{ asset('images/taq3.jpg') }}" class="card-img-top" alt="Taq 3"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Chateau Clarke 750ML - £9.50</h5>
+                        <h5 class="card-title">Casco Viejo Taquila Silver 750ML- £16.99</h5>
                         <p class="card-text">Casco Viejo is a famous brand of tequila that is known all around the
                             world. It’s the third best-selling tequila in Mexico, which is where tequila comes from, and
                             it’s the most popular tequila in Mexico City.
@@ -271,10 +271,10 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine4.png') }}" class="card-img-top" alt="Torres Mas La Plana Wine"
+                    <img src="{{ asset('images/taq4.jpg') }}" class="card-img-top" alt="Torres Mas La Plana Wine"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Torres Mas La Plana 750ML - £19.50</h5>
+                        <h5 class="card-title">Jose Cuervo Especial Silver Tequila 750ML - £19.50</h5>
                         <p class="card-text">Torres Mas la Plana is a deep, dense cherry colour, with a touch of
                             mahogany. It has a wonderfully intense bouquet typical of this vineyard with hints of
                             blackberries, cherries, truffles, spices such as clove, liquorice, black and white pepper.
