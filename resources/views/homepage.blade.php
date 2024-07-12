@@ -210,23 +210,87 @@
             </div>
         </div>
     </div>
-</div>
+    <div>
+        <h3 class="text-center">Taquila</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/taq11.jpeg') }}" class="card-img-top" alt="Taquila 1"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Artisan Mezcal Monte Luna 750ML - £17.50</h5>
+                        <p class="card-text">Bruxo No. 5 is made by mezcalero Candido Reyes, AKA Tio Conejo (Uncle
+                            Rabbit). Other releases of this are also made by Cesareo “Hero” Rodriguez. The wild agave
+                            Tobala are very small, meaning that it takes a great amount of Tobala to produce small
+                            quantities of mezcal.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/wine2.jpeg') }}" class="card-img-top" alt="Bouchard Grand Wine"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Bouchard Grand Conseiller Chardonnay 75Cl - £9.50</h5>
+                        <p class="card-text">This wine smells light and fruity with hints of minerals, white flowers,
+                            and peaches. It’s dry with a citrusy taste. It’s made in steel tanks without oak aging.
+                            Great with seafood, chicken, and salads.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/wine3.jpeg') }}" class="card-img-top" alt="Chateau Clarke Wine"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Chateau Clarke 750ML - £9.50</h5>
+                        <p class="card-text">This wine has a strong smell of ripe black currants mixed with cedar,
+                            cloves, and violets. It tastes round and full, like baked plums, and it has a good balance
+                            of chewy tannins and not too much acidity.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/wine4.png') }}" class="card-img-top" alt="Torres Mas La Plana Wine"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Torres Mas La Plana 750ML - £19.50</h5>
+                        <p class="card-text">Torres Mas la Plana is a deep, dense cherry colour, with a touch of
+                            mahogany. It has a wonderfully intense bouquet typical of this vineyard with hints of
+                            blackberries, cherries, truffles, spices such as clove, liquorice, black and white pepper.
+                            There is an incense-like quality developed during ageing in wood. Full, elegant and
+                            pronounced aftertaste, befitting a wine of this quality.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-@endsection
+    @endsection
 
-<style>
-    .card-body {
-        max-height: 120px;
-        position: relative;
-    }
+    <style>
+        .card-body {
+            max-height: 120px;
+            position: relative;
+        }
 
-    .card-body .fade-effect {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-        pointer-events: none;
-    }
-</style>
+        .card-body .fade-effect {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+            pointer-events: none;
+        }
+    </style>
