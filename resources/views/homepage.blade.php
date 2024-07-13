@@ -284,6 +284,21 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <img src="{{ asset('images/taq4.jpg') }}" class="card-img-top" alt="Taq 4"
+                        style="height: 250px; margin:auto;">
+                    <div class="card-body position-relative" style="overflow: hidden;">
+                        <h5 class="card-title">Jose Cuervo Especial Silver Tequila 750ML - £19.50</h5>
+                        <p class="card-text">Its uniqueness comes from blending young silver tequilas with specially
+                            selected oak barrel-mellowed tequilas. The process culminates in a smoother, well-balanced
+                            tequila with a fresh aroma and a crisp, clean finish. Clasico has a subtle taste with just a
+                            touch of sweetness. Perfect in a cocktail. Superb straight up or on the rocks.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <div class="fade-effect"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
