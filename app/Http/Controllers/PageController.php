@@ -10,4 +10,8 @@ class PageController extends Controller
     {
         return view('homepage');
     }
+    public function showProductPage()
+    {
+        return view('productpage');
+    }
 }

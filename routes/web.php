@@ -29,3 +29,5 @@ Route::get('/password/reset', [AuthController::class, 'showResetForm'])->name('p
 Route::post('/password/email', [AuthController::class, 'sendResetLinkEmail'])->name('password.email');
 
 Route::get('/homepage', [PageController::class, 'showHomePage'])->name('homepage');
+
+Route::get('/product', [PageController::class, 'showProductPage'])->name('productpage');
