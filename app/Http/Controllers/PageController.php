@@ -12,6 +12,6 @@ class PageController extends Controller
     }
     public function showProductPage()
     {
-        return view('productpage');
+        return view('product');
     }
 }
