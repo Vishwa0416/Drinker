@@ -14,4 +14,8 @@ class PageController extends Controller
     {
         return view('product');
     }
+    public function showBeerPage()
+    {
+        return view('beer');
+    }
 }

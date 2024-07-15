@@ -31,3 +31,5 @@ Route::post('/password/email', [AuthController::class, 'sendResetLinkEmail'])->n
 Route::get('/homepage', [PageController::class, 'showHomePage'])->name('homepage');
 
 Route::get('/product', [PageController::class, 'showProductPage'])->name('product');
+
+Route::get('/beer', [PageController::class, 'showBeerPage'])->name('beer');
