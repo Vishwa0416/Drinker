@@ -3,9 +3,9 @@
 @section('content')
 
 <div class="container">
-    <h3>Our Products:</h3>
+    <h3>Beers & Mixers:</h3>
     <div>
-        <h3 class="text-center">Wines</h3>
+        <h3 class="text-center">Beers</h3>
         <br>
         <div class="row">
             <div class="col-md-3 mb-4">
