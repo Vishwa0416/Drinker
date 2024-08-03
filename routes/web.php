@@ -33,3 +33,9 @@ Route::get('/homepage', [PageController::class, 'showHomePage'])->name('homepage
 Route::get('/product', [PageController::class, 'showProductPage'])->name('product');
 
 Route::get('/beer', [PageController::class, 'showBeerPage'])->name('beer');
+
+Route::get('/about', [PageController::class, 'aboutPage'])->name('about');
+
+Route::get('/video', function () {
+    return view('video');
+});

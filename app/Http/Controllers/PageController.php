@@ -18,4 +18,8 @@ class PageController extends Controller
     {
         return view('beer');
     }
+    public function aboutPage()
+    {
+        return view('about');
+    }
 }
