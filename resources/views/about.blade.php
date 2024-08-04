@@ -1,5 +1,5 @@
 @extends('layouts')
-@section('title', 'Beer Page')
+@section('title', 'About Us')
 @section('content')
 
 
