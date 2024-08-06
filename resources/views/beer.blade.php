@@ -25,13 +25,14 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine2.jpeg') }}" class="card-img-top" alt="Bouchard Grand Wine"
+                    <img src="{{ asset('images/carl.jpg') }}" class="card-img-top" alt="Carlsberg"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Bouchard Grand Conseiller Chardonnay 75Cl - £9.50</h5>
-                        <p class="card-text">This wine smells light and fruity with hints of minerals, white flowers,
-                            and peaches. It’s dry with a citrusy taste. It’s made in steel tanks without oak aging.
-                            Great with seafood, chicken, and salads.</p>
+                        <h5 class="card-title">Carlsberg Premium Pilsner 500ml - £0.75</h5>
+                        <p class="card-text">At Carlsberg, the pursuit of better beer is in our DNA. More than 100 years
+                            after our founder J.C. Jacobsen mastered the art of brewing great Pilsner, we’re still
+                            looking for ways to improve our beer. Our perfectly balanced Danish Pilsner is wonderfully
+                            crisp and refreshing, with a full flavor and a distinctive hoppy aroma. </p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
@@ -39,13 +40,13 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine3.jpeg') }}" class="card-img-top" alt="Chateau Clarke Wine"
+                    <img src="{{ asset('images/carlspc.jpg') }}" class="card-img-top" alt="Carlsberg Spc"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Chateau Clarke 750ML - £9.50</h5>
-                        <p class="card-text">This wine has a strong smell of ripe black currants mixed with cedar,
-                            cloves, and violets. It tastes round and full, like baked plums, and it has a good balance
-                            of chewy tannins and not too much acidity.</p>
+                        <h5 class="card-title">Carlsberg Special Brew - £1.00</h5>
+                        <p class="card-text">The international flavors of global brewers Carlsberg, is produced at the
+                            Lion Brewery under license, adding further dimensions to the portfolio of products on offer,
+                            is available in 8.8%.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
@@ -53,15 +54,17 @@
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine4.png') }}" class="card-img-top" alt="Torres Mas La Plana Wine"
+                    <img src="{{ asset('images/hei.jpg') }}" class="card-img-top" alt="Heineken Silver"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Torres Mas La Plana 750ML - £19.50</h5>
-                        <p class="card-text">Torres Mas la Plana is a deep, dense cherry colour, with a touch of
-                            mahogany. It has a wonderfully intense bouquet typical of this vineyard with hints of
-                            blackberries, cherries, truffles, spices such as clove, liquorice, black and white pepper.
-                            There is an incense-like quality developed during ageing in wood. Full, elegant and
-                            pronounced aftertaste, befitting a wine of this quality.</p>
+                        <h5 class="card-title">Heiniken Beer Can Silver 750ML - £2.50</h5>
+                        <p class="card-text">The world’s most international premium beer: Heineken.
+                            Brewed with 100% natural ingredients only: Malted Barley, Water, Hops and a small but
+                            significant extra, called A-Yeast. Heineken’s unique A Yeast ® is responsible for the rich
+                            balanced taste and subtle notes that have distinguished every-single Heineken since the 19th
+                            century.
+                            This Global Beer Brand is now brewed in Sri Lanka with the same global recipe which proves
+                            that Heineken has the same great taste in 192 countries all around the world.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
