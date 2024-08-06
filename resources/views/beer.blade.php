@@ -73,7 +73,7 @@
         </div>
     </div>
     <div>
-        <h3 class="text-center">Vodka</h3>
+        <h3 class="text-center">Mixures</h3>
         <br>
         <div class="row">
             <div class="col-md-3 mb-4">
