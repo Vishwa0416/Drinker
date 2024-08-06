@@ -1,5 +1,5 @@
 @extends('layouts')
-@section('title', 'Beer Page')
+@section('title', 'Beers and Mixures')
 @section('content')
 
 <div class="container">
@@ -10,14 +10,14 @@
         <div class="row">
             <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/wine1.jpeg') }}" class="card-img-top" alt="Banrock Wine"
+                    <img src="{{ asset('images/tiger.png') }}" class="card-img-top" alt="Tiger Black Beer"
                         style="height: 250px; margin:auto;">
                     <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Banrock Station Shiraz 75Cl - £7.50</h5>
-                        <p class="card-text">The Banrock Station Shiraz is a rich and full-bodied red wine with strong
-                            flavors of blackberry, coffee, and oak, along with a touch of clove and cinnamon. It has a
-                            full-bodied taste, showcasing plum and blackberry notes, complemented by hints of clove and
-                            aniseed spices. The alcohol by volume (ABV) of this wine is 13%.</p>
+                        <h5 class="card-title">Tiger Black Beer Can 750ml - £1.50</h5>
+                        <p class="card-text">Tiger Black is a variant of the popular Singaporean beer brand, Tiger Beer.
+                            This 500ml bottle of Tiger Black is a dark lager with a rich and full-bodied taste. It has a
+                            dark brown color, a malty aroma, and a slightly sweet flavor profile with hints of caramel
+                            and coffee.</p>
                         <a href="#" class="btn btn-primary">Buy Now</a>
                         <div class="fade-effect"></div>
                     </div>
