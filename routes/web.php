@@ -39,3 +39,6 @@ Route::get('/about', [PageController::class, 'aboutPage'])->name('about');
 Route::get('/video', function () {
     return view('video');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
