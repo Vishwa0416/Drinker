@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::get('/homepage', function () {
+    return view('homepage');
+})->name('homepage');
+
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');
 
@@ -28,7 +32,7 @@ Route::post('/registration', [AuthController::class, 'register'])->name('registr
 Route::get('/password/reset', [AuthController::class, 'showResetForm'])->name('password.request');
 Route::post('/password/email', [AuthController::class, 'sendResetLinkEmail'])->name('password.email');
 
-Route::get('/homepage', [PageController::class, 'showHomePage'])->name('homepage');
+Route::post('/homepagelogin', [PageController::class, 'showHomePage'])->name('homepagelogin');
 
 Route::get('/product', [PageController::class, 'showProductPage'])->name('product');
 
