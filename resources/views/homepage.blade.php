@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
-                <a href="#" class="btn btn-outline-primary">See All</a>
+                <a href="#" class="btn btn-outline-primary">See Al</a>
             </div>
         @endforeach
     </div>
