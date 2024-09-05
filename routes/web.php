@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
+use App\Models\ShopItem;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,13 +18,10 @@ use App\Http\Controllers\PageController;
 
 // 
 
-Route::get('/homepage', function () {
-    return view('homepage');
-})->name('homepage');
-
 Route::get('/', function () {
-    return view('homepage');
-})->name('homepage');
+    $shopItems = ShopItem::all(); // Fetch items from the database
+    return view('homepage', compact('shopItems'));});
+
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'loginPost'])->name('login.post');
@@ -47,4 +45,4 @@ Route::get('/video', function () {
 });
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/homepage', [App\Http\Controllers\HomeController::class, 'index'])->name('homepage');

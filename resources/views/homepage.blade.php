@@ -3,10 +3,7 @@
 @section('content')
 
 <div class="container">
-    <h1>Drinker!</h1>
-    <p>Make your own drink as you wish!</p>
-    <h3>Featured Products:</h3>
-
+    <h1>Shop Items</h1>
     <h2 class="category">Wines</h2>
     <div class="row">
         @foreach($shopItems->where('category', 'Wines') as $item)
@@ -24,14 +21,13 @@
                 </div>
             </div>
         @endforeach
-        <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
-            <a href="#" class="btn btn-outline-primary">See All</a>
-        </div>
     </div>
 
-
+    <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
+        <a href="#" class="btn btn-outline-primary">See All</a>
+    </div>
 </div>
-@endsection
+
 <style>
     .card-body {
         max-height: 120px;
