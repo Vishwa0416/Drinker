@@ -17,7 +17,8 @@ class AuthController extends Controller
         $credentials = $request->only('email', 'password');
 
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('dashboard');
+            // return redirect()->intended('dashboard');
+            return redirect()->route('homepage')->with('success', 'Login successful.');
         }
 
         return back()->withErrors([
@@ -42,7 +43,7 @@ class AuthController extends Controller
         // Registration logic (e.g., creating a new user)
         // User::create([...]);
 
-        return redirect()->route('home')->with('success', 'Registration successful.');
+        return redirect()->route('homepage')->with('success', 'Registration successful.');
     }
 
     public function showResetForm()
