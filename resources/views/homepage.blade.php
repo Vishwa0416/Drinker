@@ -63,7 +63,28 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
-                <a href="#" class="btn btn-outline-primary">See Al</a>
+                <a href="#" class="btn btn-outline-primary">See All</a>
+            </div>
+        @endforeach
+    </div>
+    <h2 class="category">Taquila</h2>
+    <div class="row">
+        @foreach($shopItems->where('category', 'Taquila') as $item)
+            <div class="col-md-3">
+                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                    <div class="card mb-4">
+                        <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
+                            style="height: 250px; margin:auto;">
+                        <div class="card-body position-relative" style="overflow: hidden;">
+                            <h5 class="card-title">{{ $item->name }}</h5>
+                            <p class="card-text">{{ $item->description }}</p>
+                            <div class="fade-effect"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
+                <a href="#" class="btn btn-outline-primary">See All</a>
             </div>
         @endforeach
     </div>
