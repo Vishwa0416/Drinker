@@ -11,7 +11,9 @@ return new class extends Migration {
     public function up(): void
     {
         Schema::create('shop_items', function (Blueprint $table) {
+
             $table->id(); // Auto-incrementing ID
+            $table->string('category');
             $table->string('name'); // Name of the shop item
             $table->string('image'); // Image URL or file path
             $table->text('description'); // Description of the shop item

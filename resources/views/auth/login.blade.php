@@ -54,6 +54,7 @@
                                     </label>
                                 </div>
                             </div>
+                            <div>reg form</div>
                         </div>
 
                         <div class="row mb-0">

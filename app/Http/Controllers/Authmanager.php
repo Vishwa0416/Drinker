@@ -14,7 +14,7 @@ class Authmanager extends Controller
 
     function registration()
     {
-        return view('registration');
+        return view('register');
     }
 
     function loginPost(Request $request)
@@ -26,7 +26,7 @@ class Authmanager extends Controller
 
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect()->intended(route('home'));
+            return redirect()->intended(route('homepage'));
         }
         return redirect(route('login'))->with('error', 'Login Details are not Valid');
     }
