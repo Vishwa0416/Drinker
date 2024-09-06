@@ -1,8 +1,9 @@
 @extends('layouts')
 @section('title', 'Home Page')
 @section('content')
-
+<img src="{{ asset('images/homeupdate.png') }}" alt="Home Image" class="home-image">
 <div class="container">
+
     <h1>Shop Items</h1>
     <h2 class="category">Wines</h2>
     <div class="row">
@@ -92,7 +93,14 @@
 @endsection
 </div>
 
+
 <style>
+    .home-image {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
     .category {
         text-align: center;
         margin: 20px;
