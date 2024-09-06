@@ -1,11 +1,14 @@
 @extends('layouts')
 
 @section('content')
+
 <div class="container">
+    <h1>LogIn</h1>
+    <p>Please login to continue</p>
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -54,7 +57,12 @@
                                     </label>
                                 </div>
                             </div>
-                            <div>reg form</div>
+                            <div class="text-center">
+                                <div class="card-body">
+                                    <p>Haven't joined us yet? <a href="/register">Register now!</a></p>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="row mb-0">
