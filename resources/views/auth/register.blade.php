@@ -3,7 +3,7 @@
 @section('title', 'Register')
 
 @section('content')
-<div class="container">
+<div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8 col-lg-6">
             <div class="card shadow-lg border-light">
@@ -12,8 +12,7 @@
                 </div>
                 <div class="card-body">
                     <p class="text-center mb-4">{{ __('Please register to continue') }}</p>
-                    <form method="POST" action="{{ route('register') }}" class="ms-auto me-auto mt-3"
-                        style="width: 500px">
+                    <form method="POST" action="{{ route('register') }}">
                         @csrf
 
                         <div class="mb-3">

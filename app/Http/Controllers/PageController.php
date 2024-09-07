@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\ShopItem;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -12,7 +12,10 @@ class PageController extends Controller
     }
     public function showProductPage()
     {
-        return view('product');
+        
+    $shopItems = ShopItem::all(); // Fetch items from the database
+    return view('product', compact('shopItems'));
+        
     }
     public function showBeerPage()
     {
