@@ -30,7 +30,29 @@
             <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
 
-       
+        <h3 class="text-center">Mixures</h3>
+        <div class="row d-flex flex-wrap">
+            @foreach($mix->where('category', 'Mixures') as $item)
+                <div class="col-md-3 mb-4">
+                    <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                        <div class="card">
+                            <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
+                                style="height: 250px; margin:auto;">
+                            <div class="card-body position-relative" style="overflow: hidden;">
+                                <h5 class="card-title">{{ $item->name }}</h5>
+                                <p class="card-text">{{ $item->description }}</p>
+                                <div class="fade-effect"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-outline-primary">See All</a>
+        </div>
+
     </div>
     <div>
         <h3 class="text-center">Mixures</h3>
