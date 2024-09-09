@@ -5,14 +5,14 @@
 <div class="container">
     <h3>Beers & Mixers:</h3>
     <div>
-        <h3 class="text-center">Beers</h3>
+
         <br>
-        <h2 class="category">Beers</h2>
-        <div class="row">
+        <h3 class="text-center">Beers</h3>
+        <div class="row d-flex flex-wrap">
             @foreach($mix->where('category', 'Beers') as $item)
-                <div class="col-md-3">
+                <div class="col-md-3 mb-4">
                     <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                        <div class="card mb-4">
+                        <div class="card">
                             <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
                                 style="height: 250px; margin:auto;">
                             <div class="card-body position-relative" style="overflow: hidden;">
@@ -23,81 +23,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center align-items-center"
-                    style="height: 100%; width: 100%; margin: 20px;">
-                    <a href="#" class="btn btn-outline-primary">See All</a>
-                </div>
             @endforeach
         </div>
 
-
-
-
-
-        <div class="row">
-            <div class="col-md-3 mb-4">
-                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/tiger.png') }}" class="card-img-top" alt="Tiger Black Beer"
-                        style="height: 250px; margin:auto;">
-                    <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Tiger Black Beer Can 750ml - £1.50</h5>
-                        <p class="card-text">Tiger Black is a variant of the popular Singaporean beer brand, Tiger Beer.
-                            This 500ml bottle of Tiger Black is a dark lager with a rich and full-bodied taste. It has a
-                            dark brown color, a malty aroma, and a slightly sweet flavor profile with hints of caramel
-                            and coffee.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                        <div class="fade-effect"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/carl.jpg') }}" class="card-img-top" alt="Carlsberg"
-                        style="height: 250px; margin:auto;">
-                    <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Carlsberg Premium Pilsner 500ml - £0.75</h5>
-                        <p class="card-text">At Carlsberg, the pursuit of better beer is in our DNA. More than 100 years
-                            after our founder J.C. Jacobsen mastered the art of brewing great Pilsner, we’re still
-                            looking for ways to improve our beer. Our perfectly balanced Danish Pilsner is wonderfully
-                            crisp and refreshing, with a full flavor and a distinctive hoppy aroma. </p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                        <div class="fade-effect"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/carlspc.jpg') }}" class="card-img-top" alt="Carlsberg Spc"
-                        style="height: 250px; margin:auto;">
-                    <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Carlsberg Special Brew - £1.00</h5>
-                        <p class="card-text">The international flavors of global brewers Carlsberg, is produced at the
-                            Lion Brewery under license, adding further dimensions to the portfolio of products on offer,
-                            is available in 8.8%.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                        <div class="fade-effect"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <img src="{{ asset('images/hei.jpg') }}" class="card-img-top" alt="Heineken Silver"
-                        style="height: 250px; margin:auto;">
-                    <div class="card-body position-relative" style="overflow: hidden;">
-                        <h5 class="card-title">Heiniken Beer Can Silver 750ML - £2.50</h5>
-                        <p class="card-text">The world’s most international premium beer: Heineken.
-                            Brewed with 100% natural ingredients only: Malted Barley, Water, Hops and a small but
-                            significant extra, called A-Yeast. Heineken’s unique A Yeast ® is responsible for the rich
-                            balanced taste and subtle notes that have distinguished every-single Heineken since the 19th
-                            century.
-                            This Global Beer Brand is now brewed in Sri Lanka with the same global recipe which proves
-                            that Heineken has the same great taste in 192 countries all around the world.</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                        <div class="fade-effect"></div>
-                    </div>
-                </div>
-            </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
+
+       
     </div>
     <div>
         <h3 class="text-center">Mixures</h3>
