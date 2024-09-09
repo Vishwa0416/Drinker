@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\ShopItem;
+use App\Models\Mixer;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -19,7 +20,8 @@ class PageController extends Controller
     }
     public function showBeerPage()
     {
-        return view('beer');
+        $mix = Mixer::all(); // Fetch items from the database
+    return view('beer', compact('mix'));
     }
     public function aboutPage()
     {

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
 use App\Models\ShopItem;
+use App\Models\Mixer;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +24,10 @@ Route::get('/', function () {
     return view('homepage', compact('shopItems'));
 });
 
-
+Route::get('/', function () {
+    $mix = Mixer::all(); // Fetch items from the database
+    return view('homepage', compact('mix'));
+});
 
 Route::post('/homepagelogin', [PageController::class, 'showHomePage'])->name('homepagelogin');
 

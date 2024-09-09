@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration {
     public function up(): void
     {
-        Schema::create('mix', function (Blueprint $table) {
+        Schema::create('mixers', function (Blueprint $table) {
             $table->id();
             $table->string('category');
             $table->string('name');
