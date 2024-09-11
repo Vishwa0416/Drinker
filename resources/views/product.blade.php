@@ -61,9 +61,9 @@
     <h2 class="category">Whiskey</h2>
     <div class="row">
         @foreach($shopItems->where('category', 'Whiskey') as $item)
-            <div class="col-md-3">
+            <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <div class="card mb-4">
+                    <div class="card">
                         <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
                             style="height: 250px; margin:auto;">
                         <div class="card-body position-relative" style="overflow: hidden;">
@@ -82,9 +82,9 @@
     <h2 class="category">Taquila</h2>
     <div class="row">
         @foreach($shopItems->where('category', 'Taquila') as $item)
-            <div class="col-md-3">
+            <div class="col-md-3 mb-4">
                 <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <div class="card mb-4">
+                    <div class="card">
                         <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
                             style="height: 250px; margin:auto;">
                         <div class="card-body position-relative" style="overflow: hidden;">
