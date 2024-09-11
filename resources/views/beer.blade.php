@@ -26,6 +26,7 @@
             @endforeach
         </div>
 
+
         <div class="d-flex justify-content-center align-items-center">
             <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
