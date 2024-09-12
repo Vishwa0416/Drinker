@@ -18,7 +18,14 @@
             international brands, catering to the diverse tastes of our valued customers. Our mission is to provide a
             seamless shopping experience, whether you're seeking a rare vintage, a classic favorite, or the latest craft
             innovation. At Drinker, we believe in quality, variety, and exceptional customer service. Join
-            us in celebrating the art of fine drinking and discover your next favorite bottle today.</p>
+            us in celebrating the art of fine drinking and discover your next favorite bottle today.
+            We offer you,
+        <ul>
+            <li>Vodkas</li>
+            <li>Wines</li>
+            <li>Taquilas</li>
+            <li>Whiskeys</li>
+            </p>
     </div>
 </div>
 

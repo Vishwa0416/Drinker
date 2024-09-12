@@ -28,8 +28,6 @@
             <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
 
-
-
     </div>
     <div>
         <h2 class="category" style="text-center">Vodka</h2>
@@ -54,10 +52,8 @@
         <div class="d-flex justify-content-center align-items-center">
             <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
-
-
-
     </div>
+
     <h2 class="category">Whiskey</h2>
     <div class="row">
         @foreach($shopItems->where('category', 'Whiskey') as $item)
@@ -101,16 +97,6 @@
         @endforeach
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 @endsection
 
 <style>
