@@ -39,6 +39,9 @@ Route::get('/about', [PageController::class, 'aboutPage'])->name('about');
 
 Route::get('/contact', [PageController::class, 'contactPage'])->name('contact');
 
+Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');
+
+
 Route::get('/video', function () {
     return view('video');
 });
