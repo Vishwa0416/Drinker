@@ -17,7 +17,7 @@
                     <a class="nav-link" href="{{ route('about') }}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>
             <div class="d-flex">

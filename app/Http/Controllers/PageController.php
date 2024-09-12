@@ -13,18 +13,23 @@ class PageController extends Controller
     }
     public function showProductPage()
     {
-        
-    $shopItems = ShopItem::all(); // Fetch items from the database
-    return view('product', compact('shopItems'));
-        
+
+        $shopItems = ShopItem::all(); 
+        return view('product', compact('shopItems'));
+
     }
     public function showBeerPage()
     {
-        $mix = Mixer::all(); // Fetch items from the database
-    return view('beer', compact('mix'));
+        $mix = Mixer::all(); 
+        return view('beer', compact('mix'));
     }
     public function aboutPage()
     {
         return view('about');
+    }
+
+    public function contactPage()
+    {
+        return view('contact');
     }
 }

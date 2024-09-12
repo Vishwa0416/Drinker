@@ -1,16 +1,11 @@
 @extends('layouts')
-@section('title', 'About Us')
+@section('title', 'Contact Us')
 @section('content')
 
 
 <div class="container">
-    <h3>About Us</h3>
-    <div class="first-section">
-        <video class="first-video" width="300" autoplay loop muted>
-            <source src="{{ asset('videos/drinkervideo.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    <h3>Contact Us</h3>
+
     <br>
     <div class="text-section">
         <p>Welcome to Drinker!, your premier destination for the finest selection of spirits, wines, and
@@ -37,9 +32,7 @@
         justify-content: center;
     }
 
-    .first-video {
-        margin-top: 20px;
-    }
+
 
     .text-section {
         background-color: #f5f5f5;
