@@ -11,7 +11,7 @@
             <img src="{{ asset('images/image2.png') }}" class="d-block w-100" alt="Home Image 2">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('images/homeupdate.png') }}" class="d-block w-100" alt="Home Image 3">
+            <img src="{{ asset('images/image3.png') }}" class="d-block w-100" alt="Home Image 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
