@@ -5,10 +5,10 @@
 <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ asset('images/homeupdate.png') }}" class="d-block w-100" alt="Home Image 1">
+            <img src="{{ asset('images/Home.png') }}" class="d-block w-100" alt="Home Image 1">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('images/homeupdate.png') }}" class="d-block w-100" alt="Home Image 2">
+            <img src="{{ asset('images/image2.png') }}" class="d-block w-100" alt="Home Image 2">
         </div>
         <div class="carousel-item">
             <img src="{{ asset('images/homeupdate.png') }}" class="d-block w-100" alt="Home Image 3">
