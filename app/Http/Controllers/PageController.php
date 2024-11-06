@@ -14,13 +14,13 @@ class PageController extends Controller
     public function showProductPage()
     {
 
-        $shopItems = ShopItem::all(); 
+        $shopItems = ShopItem::all();
         return view('product', compact('shopItems'));
 
     }
     public function showBeerPage()
     {
-        $mix = Mixer::all(); 
+        $mix = Mixer::all();
         return view('beer', compact('mix'));
     }
     public function aboutPage()
@@ -31,5 +31,10 @@ class PageController extends Controller
     public function contactPage()
     {
         return view('contact');
+    }
+
+    public function banrockPage()
+    {
+        return view('banrock');
     }
 }

@@ -39,6 +39,8 @@ Route::get('/about', [PageController::class, 'aboutPage'])->name('about');
 
 Route::get('/contact', [PageController::class, 'contactPage'])->name('contact');
 
+Route::get('/banrock', [PageController::class, 'banrockPage'])->name('banrock');
+
 Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');
 
 
