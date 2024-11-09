@@ -29,25 +29,33 @@
     <h1>Shop Items</h1>
     <h2 class="category">Wines</h2>
     <div class="row">
-        @foreach($shopItems->where('category', 'Wines') as $item)
+        @foreach($shopItems->where('category', 'Wines') as $index => $item)
             <div class="col-md-3">
-                <div class="card" style="width: 15rem; margin: auto; height: 400px;">
-                    <div class="card mb-4">
-                        <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
-                            style="height: 250px; margin:auto;">
-                        <div class="card-body position-relative" style="overflow: hidden;">
-                            <h5 class="card-title">{{ $item->name }}</h5>
-                            <p class="card-text">{{ $item->description }}</p>
-                            <div class="fade-effect"></div>
+                @if($index === 0)
+                    <!-- Only the first item will link to the Banrock page -->
+                    <a href="{{ route('banrock') }}" style="text-decoration: none; color: inherit;">
+                @endif
+                    <div class="card" style="width: 15rem; margin: auto; height: 400px;">
+                        <div class="card mb-4">
+                            <img src="{{ $item->image }}" alt="{{ $item->name }}" class="card-img-top"
+                                style="height: 250px; margin:auto;">
+                            <div class="card-body position-relative" style="overflow: hidden;">
+                                <h5 class="card-title">{{ $item->name }}</h5>
+                                <p class="card-text">{{ $item->description }}</p>
+                                <div class="fade-effect"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
-                <a href="#" class="btn btn-outline-primary">See All</a>
+                    @if($index === 0)
+                        </a>
+                    @endif
             </div>
         @endforeach
+        <div class="d-flex justify-content-center align-items-center" style="height: 100%; width: 100%; margin: 20px;">
+            <a href="#" class="btn btn-outline-primary">See All</a>
+        </div>
     </div>
+
     <h2 class="category">Vodka</h2>
     <div class="row">
         @foreach($shopItems->where('category', 'Vodka') as $item)
