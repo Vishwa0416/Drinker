@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wines</title>
     <style>
-        /* Basic Reset and Font */
         * {
             margin: 0;
             padding: 0;
@@ -14,7 +13,6 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Body Styles */
         body {
             background-color: #f5f5f5;
             padding: 20px;
@@ -24,7 +22,6 @@
             min-height: 100vh;
         }
 
-        /* Container Styling */
         .container {
             background-color: #fff;
             padding: 20px;
@@ -35,7 +32,6 @@
             gap: 20px;
         }
 
-        /* Image Styling */
         .container img {
             width: 100%;
             max-width: 400px;
@@ -43,7 +39,6 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        /* Text Styling */
         .content {
             display: flex;
             flex-direction: column;
@@ -68,7 +63,6 @@
             margin-bottom: 10px;
         }
 
-        /* Button Styling */
         .btn {
             padding: 10px 20px;
             font-size: 1rem;

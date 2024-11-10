@@ -34,7 +34,7 @@
                         </div>
 
                         <div class="form-group mb-3">
-                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            <button type="submit" class="btn btn-primary w-100">Send a Message</button>
                         </div>
                     </form>
                 </div>
