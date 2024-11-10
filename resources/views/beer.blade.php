@@ -31,7 +31,7 @@
             <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
 
-        <h3 class="text-center">Mixures</h3>
+        <h3 class="text-center" style="margin-top: 40px">Mixures</h3>
         <div class="row d-flex flex-wrap">
             @foreach($mix->where('category', 'Mixures') as $item)
                 <div class="col-md-3 mb-4">
