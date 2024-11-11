@@ -6,7 +6,6 @@
     <h3>Beers & Mixers:</h3>
     <div>
 
-
         <h3 class="text-center">Beers</h3>
         <div class="row d-flex flex-wrap">
             @foreach($mix->where('category', 'Beers') as $item)
@@ -53,9 +52,8 @@
         <div class="d-flex justify-content-center align-items-center">
             <a href="#" class="btn btn-outline-primary">See All</a>
         </div>
-
     </div>
-
+</div>
 
 
     @endsection
