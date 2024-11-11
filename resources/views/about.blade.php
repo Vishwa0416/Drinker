@@ -13,11 +13,11 @@
     </div>
     <br>
     <div class="text-section">
-        Welcome to Drinker!
-
+       <b> Welcome to Drinker!</b>
+<br>
 At Drinker, we bring the world of fine spirits, wines, and beers to your fingertips. Since our founding in 2023, we've been dedicated to offering an unparalleled selection of beverages, handpicked to suit every taste and occasion. From rare vintages and iconic favorites to the latest craft innovations, Drinker caters to both seasoned connoisseurs and casual enthusiasts alike.
-
-Our Mission
+<br>
+<b>Our Mission</b>
 Drinker is more than a store; it’s a destination for discovery. We believe that each bottle tells a story, and our mission is to connect our customers with drinks that reflect quality, craftsmanship, and individuality. Our aim is to create a seamless, enjoyable shopping experience, ensuring that finding the perfect bottle is as delightful as savoring it.
 
 What We Offer
