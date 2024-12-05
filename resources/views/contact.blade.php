@@ -12,7 +12,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-body">
-                    <form action="{{ route('contact.submit') }}" method="POST">
+                    <form action="{{ route('submit.form') }}" method="POST">
                         @csrf
 
                         <div class="form-group mb-3">

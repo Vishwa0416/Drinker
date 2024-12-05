@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
 use App\Models\ShopItem;
 use App\Models\Mixer;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,7 +42,7 @@ Route::get('/contact', [PageController::class, 'contactPage'])->name('contact');
 
 Route::get('/banrock', [PageController::class, 'banrockPage'])->name('banrock');
 
-Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');
+Route::post('/submit', [ContactController::class, 'submit'])->name('submit.form');
 
 
 Route::get('/video', function () {
