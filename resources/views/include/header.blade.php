@@ -22,7 +22,7 @@
             </ul>
             <div class="d-flex align-items-center">
                 @auth
-                <div class="d-flex align-items-center">
+                <a href="{{ route('profile.show') }}" class="d-flex align-items-center text-decoration-none text-dark">
                     <img src="{{ Auth::user()->profile_image ? asset('images/' . Auth::user()->profile_image) : asset('images/man.png') }}" 
                          alt="User Image" 
                          class="rounded-circle" 
@@ -31,7 +31,8 @@
                     <span class="navbar-text">
                         {{ Auth::user()->name }}
                     </span>
-                </div>
+                </a>
+                
                 
                     <a href="{{ route('logout') }}" class="btn btn-secondary ms-3"
                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

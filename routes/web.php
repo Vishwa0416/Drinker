@@ -53,6 +53,7 @@ Auth::routes();
 
 Route::get('/homepage', [App\Http\Controllers\HomeController::class, 'index'])->name('homepage');
 
+
 Route::get('/profile', [ProfileController::class, 'show'])->name('profile.show')->middleware('auth');
 
 Route::post('/profile', [ProfileController::class, 'update'])->name('profile.update')->middleware('auth');
