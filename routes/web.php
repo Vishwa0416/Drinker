@@ -6,6 +6,7 @@ use App\Http\Controllers\PageController;
 use App\Models\ShopItem;
 use App\Models\Mixer;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,3 +52,8 @@ Route::get('/video', function () {
 Auth::routes();
 
 Route::get('/homepage', [App\Http\Controllers\HomeController::class, 'index'])->name('homepage');
+
+Route::get('/profile', [ProfileController::class, 'show'])->name('profile.show')->middleware('auth');
+
+Route::post('/profile', [ProfileController::class, 'update'])->name('profile.update')->middleware('auth');
+
