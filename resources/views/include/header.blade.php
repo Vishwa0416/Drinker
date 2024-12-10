@@ -23,19 +23,16 @@
             <div class="d-flex align-items-center">
                 @auth
                 <div class="d-flex align-items-center">
-                    <!-- User Image -->
                     <img src="{{ Auth::user()->profile_image ? asset('images/' . Auth::user()->profile_image) : asset('images/man.png') }}" 
                          alt="User Image" 
                          class="rounded-circle" 
                          style="width: 25px; height: 25px; object-fit: cover; margin-right: 10px;">
                     
-                    <!-- User Name -->
                     <span class="navbar-text">
-                        {{ Auth::user()->name }} <!-- Display the logged-in user's name -->
+                        {{ Auth::user()->name }}
                     </span>
                 </div>
                 
-                    <!-- Logout Button -->
                     <a href="{{ route('logout') }}" class="btn btn-secondary ms-3"
                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                         Logout
@@ -44,7 +41,6 @@
                         @csrf
                     </form>
                 @else
-                    <!-- Login Button -->
                     <a href="{{ route('login') }}" class="btn btn-primary btn-lg text-uppercase">Login</a>
                 @endauth
             </div>
