@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts')
 
 @section('title', 'Register')
 
 @section('content')
 <div class="container">
     <h1>{{ __('Register') }}</h1>
-    <p>{{ __('Please register to continue') }}</p>
+    <p>{{ __('Please  to continue') }}</p>
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
