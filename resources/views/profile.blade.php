@@ -35,6 +35,15 @@
                             @enderror
                         </div>
 
+                        <div class="mb-3">
+                            <label for="birthday" class="form-label">Birthday</label>
+                            <input type="date" name="birthday" id="birthday" class="form-control @error('birthday') is-invalid @enderror" 
+                                   value="{{ old('birthday', $user->birthday) }}" required>
+                            @error('birthday')
+                                <span class="invalid-feedback">{{ $message }}</span>
+                            @enderror
+                        </div>
+
                         <button type="submit" class="btn btn-primary">Update Profile</button>
                     </form>
                 </div>
