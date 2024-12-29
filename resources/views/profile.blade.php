@@ -44,6 +44,15 @@
                             @enderror
                         </div>
 
+                        <div class="mb-3">
+                            <label for="phone_number" class="form-label">Phone Number</label>
+                            <input type="number" name="phone_number" id="phone_number" class="form-control @error('phone_number') is-invalid @enderror" 
+                                   value="{{ old('phone_number', $user->phone_number) }}" required>
+                            @error('phone_number')
+                                <span class="invalid-feedback">{{ $message }}</span>
+                            @enderror
+                        </div>
+
                         <button type="submit" class="btn btn-primary">Update Profile</button>
                     </form>
                 </div>
