@@ -27,6 +27,17 @@
                         </div>
 
                         <div class="mb-3">
+                            <label for="phone_number" class="form-label">Phone Number</label>
+                            <input type="text" name="phone_number" id="phone_number" 
+                                   class="form-control @error('phone_number') is-invalid @enderror" 
+                                   value="{{ old('phone_number', $user->phone_number) }}" required>
+                            @error('phone_number')
+                                <span class="invalid-feedback">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        
+
+                        <div class="mb-3">
                             <label for="email" class="form-label">Email Address</label>
                             <input type="email" name="email" id="email" class="form-control @error('email') is-invalid @enderror" 
                                    value="{{ old('email', $user->email) }}" required>
@@ -40,15 +51,6 @@
                             <input type="date" name="birthday" id="birthday" class="form-control @error('birthday') is-invalid @enderror" 
                                    value="{{ old('birthday', $user->birthday) }}" required>
                             @error('birthday')
-                                <span class="invalid-feedback">{{ $message }}</span>
-                            @enderror
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="phone_number" class="form-label">Phone Number</label>
-                            <input type="number" name="phone_number" id="phone_number" class="form-control @error('phone_number') is-invalid @enderror" 
-                                   value="{{ old('phone_number', $user->phone_number) }}" required>
-                            @error('phone_number')
                                 <span class="invalid-feedback">{{ $message }}</span>
                             @enderror
                         </div>

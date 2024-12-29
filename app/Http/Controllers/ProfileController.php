@@ -28,6 +28,10 @@ class ProfileController extends Controller
                     }
                 },
             ],
+            'phone_number' => [
+                'required',
+                'regex:/^\d{10}$/',
+            ],
         ]);
 
         $user->update($request->only('name', 'email'));
