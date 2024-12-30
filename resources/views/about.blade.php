@@ -33,7 +33,7 @@
     <br>
     <b>Our Values:</b><br>
     <lu>
-    <li>Quality Selection: We work with trusted suppliers and renowned brands to ensure that every bottle on our shelves meets our high standards.</li>
+    <li> We work with trusted suppliers and renowned brands to ensure that every bottle on our shelves meets our high standards.</li>
     <li>Exceptional Service: Our knowledgeable team is here to guide you, answer questions, and provide personalized recommendations for every taste.</li>
     <li>Celebrating Culture: We believe that drinks have a unique way of bringing people together, and we celebrate the traditions and cultures they represent.</li>
     </lu><br>
