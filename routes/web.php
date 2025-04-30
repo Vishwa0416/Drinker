@@ -10,12 +10,12 @@ use App\Http\Controllers\ProfileController;
 
 
 Route::get('/', function () {
-    $shopItems = ShopItem::all(); // Fetch items from the database
+    $shopItems = ShopItem::all(); 
     return view('homepage', compact('shopItems'));
 });
 
 Route::get('/', function () {
-    $mix = Mixer::all(); // Fetch items from the database
+    $mix = Mixer::all(); 
     return view('homepage', compact('mix'));
 });
 
